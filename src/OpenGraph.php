@@ -46,7 +46,8 @@ class OpenGraph
             if (isset($metadata['image'])) {
                 $isValidImageUrl = $this->verify_image_url($metadata['image']);
                 if (!$isValidImageUrl) {
-                    $metadata['image'] = '';
+//                    $metadata['image'] = '';
+                    $metadata['image'] = urldecode($metadata['image']);;
                 }
             }
         }
