@@ -1,5 +1,5 @@
 {
-  "name": "shweshi/opengraph",
+  "name": "sursolar/opengraph",
   "description": "A Laravel package to fetch website Open Graph metadata.",
   "type": "library",
   "authors": [
